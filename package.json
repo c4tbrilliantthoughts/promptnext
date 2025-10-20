@@ -2,7 +2,7 @@
   "name": "promptnext",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://c4tbrilliantthoughts.github.io/promptnext",
+  "homepage": "https://c4tbrilliantthoughts.github.io/promptnext/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
