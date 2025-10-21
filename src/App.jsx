@@ -84,7 +84,7 @@ export default function App() {
       document.createElement("link");
     link.type = "image/x-icon";
     link.rel = "icon";
-    link.href = "/PromptNext/favicon.ico";
+    link.href = `${import.meta.env.BASE_URL}favicon.ico`;
     document.getElementsByTagName("head")[0].appendChild(link);
   }, []);
 
@@ -222,7 +222,7 @@ export default function App() {
             style={{
               position: "absolute",
               inset: 0,
-              backgroundImage: "url('/public/sidebar-bg.png')",
+              backgroundImage: `url(${import.meta.env.BASE_URL}sidebar-bg.png)`,
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
