@@ -222,7 +222,7 @@ export default function App() {
             style={{
               position: "absolute",
               inset: 0,
-              backgroundImage: "url('/PromptNext/sidebar-bg.png')",
+              backgroundImage: "url('/public/sidebar-bg.png')",
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -267,7 +267,7 @@ export default function App() {
                 src={logo}
                 alt="PromptNext Logo"
                 style={{
-                  height: 60,
+                  height: 34,
                   objectFit: "contain",
                   marginBottom: 10,
                   cursor: "pointer",
@@ -330,14 +330,15 @@ export default function App() {
                 style={{
                   fontSize: 18,
                   fontWeight: "bold",
-                  color: darkMode ? "#fff" : "#000",
+                  // color: darkMode ? "#fff" : "#000",
+                  color: "#2F2922",
                 }}
               >
                 Welcome to{" "}
                 <span
                   style={{
                     fontSize: 24,
-                    color: "#5160E3",
+                    color: "#2F2922",
                     letterSpacing: "1.5px",
                   }}
                 >
@@ -362,9 +363,10 @@ export default function App() {
               style={{
                 textAlign: "center",
                 fontSize: 12,
-                color: darkMode ? "#e2e8f0" : "#1b1b1b",
+                // color: darkMode ? "#e2e8f0" : "#1b1b1b",
                 paddingBottom: 12,
                 lineHeight: "1.5",
+                color: "#2F2922",
               }}
             >
               Designed & developed by{" "}
